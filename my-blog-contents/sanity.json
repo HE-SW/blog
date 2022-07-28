@@ -1,17 +1,18 @@
 {
   "root": true,
-  "project": {
-    "name": "my-blog-contents"
-  },
   "api": {
     "projectId": "ekgfpm7t",
     "dataset": "production"
+  },
+  "project": {
+    "name": "my-blog-contents"
   },
   "plugins": [
     "@sanity/base",
     "@sanity/default-layout",
     "@sanity/default-login",
-    "@sanity/desk-tool"
+    "@sanity/desk-tool",
+    "url-metadata-input"
   ],
   "env": {
     "development": {
